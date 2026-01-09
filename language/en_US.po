@@ -1,1 +1,285 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Avatar Plugin 2.0.0\n"
+"POT-Creation-Date: 2025-01-08 12:00+0000\n"
+"PO-Revision-Date: 2025-01-08 12:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Manual\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
 
+#: index.php
+msgid "Security verification failed. Please try again."
+msgstr ""
+
+#: index.php
+msgid "Failed to save avatar. Please try again."
+msgstr ""
+
+#: index.php
+msgid "Avatar uploaded successfully!"
+msgstr ""
+
+#: index.php
+msgid "Failed to update avatar. Please try again."
+msgstr ""
+
+#: index.php
+msgid "User Avatar"
+msgstr ""
+
+#: index.php
+msgid "No Avatar"
+msgstr ""
+
+#: index.php
+msgid "Avatar"
+msgstr ""
+
+#: index.php
+msgid "Allowed formats: JPG, PNG, GIF. Maximum size: 3MB"
+msgstr ""
+
+#: index.php
+msgid "File size must be less than 3MB"
+msgstr ""
+
+#: index.php
+msgid "Please upload an avatar image"
+msgstr ""
+
+#: index.php
+msgid "Only JPG, PNG, and GIF formats are allowed"
+msgstr ""
+
+#: index.php
+msgid "Avatar Help"
+msgstr ""
+
+#: help.php
+msgid "Avatar Plugin"
+msgstr ""
+
+#: help.php
+msgid "What the plugin does?"
+msgstr ""
+
+#: help.php
+msgid "The avatar plugin shows the profile picture upload button on Register page, Profile page, and admin user page. Users can upload their picture while registering or editing their profile."
+msgstr ""
+
+#: help.php
+msgid "Security Features"
+msgstr ""
+
+#: help.php
+msgid "Server-side file validation (MIME type and actual image verification)"
+msgstr ""
+
+#: help.php
+msgid "CSRF protection with nonce verification"
+msgstr ""
+
+#: help.php
+msgid "Secure file permissions (755 for directories, 644 for files)"
+msgstr ""
+
+#: help.php
+msgid "Maximum file size limit: 3MB"
+msgstr ""
+
+#: help.php
+msgid "Allowed formats: JPG, PNG, GIF only"
+msgstr ""
+
+#: help.php
+msgid "Automatic cleanup of old avatars when uploading new ones"
+msgstr ""
+
+#: help.php
+msgid "How to use"
+msgstr ""
+
+#: help.php
+msgid "Use this code to show the picture of user:"
+msgstr ""
+
+#: help.php
+msgid "Get picture of item user:"
+msgstr ""
+
+#: help.php
+msgid "Get picture of logged user:"
+msgstr ""
+
+#: help.php
+msgid "Get picture of public profile user:"
+msgstr ""
+
+#: help.php
+msgid "Want to make avatar required?"
+msgstr ""
+
+#: help.php
+msgid "Edit avatar_plugin/index.php and find the avatar_form() function. Look for the JavaScript validation section and uncomment the two lines that say:"
+msgstr ""
+
+#: help.php
+msgid "Remove the // at the beginning of these lines to make avatar uploads required."
+msgstr ""
+
+#: help.php
+msgid "Installation Requirements"
+msgstr ""
+
+#: help.php
+msgid "PHP 8.0 or higher"
+msgstr ""
+
+#: help.php
+msgid "GD Library or Imagick extension for image processing"
+msgstr ""
+
+#: help.php
+msgid "Write permissions on oc-content/plugins/avatar_plugin/avatar/ directory"
+msgstr ""
+
+#: help.php
+msgid "Troubleshooting"
+msgstr ""
+
+#: help.php
+msgid "Avatar not uploading?"
+msgstr ""
+
+#: help.php
+msgid "Check that the avatar directory has write permissions (755)"
+msgstr ""
+
+#: help.php
+msgid "File too large error?"
+msgstr ""
+
+#: help.php
+msgid "Maximum file size is 3MB. Resize your image before uploading"
+msgstr ""
+
+#: help.php
+msgid "Invalid file format?"
+msgstr ""
+
+#: help.php
+msgid "Only JPG, PNG, and GIF images are allowed"
+msgstr ""
+
+#: help.php
+msgid "Security verification failed?"
+msgstr ""
+
+#: help.php
+msgid "Try refreshing the page and uploading again"
+msgstr ""
+
+#: help.php
+msgid "About"
+msgstr ""
+
+#: help.php
+msgid "Plugin Name:"
+msgstr ""
+
+#: help.php
+msgid "Version:"
+msgstr ""
+
+#: help.php
+msgid "Original Author:"
+msgstr ""
+
+#: help.php
+msgid "Website:"
+msgstr ""
+
+#: help.php
+msgid "Updated for:"
+msgstr ""
+
+#: help.php
+msgid "Changelog - Version 2.0.0"
+msgstr ""
+
+#: help.php
+msgid "Added server-side file validation and MIME type checking"
+msgstr ""
+
+#: help.php
+msgid "Implemented CSRF protection with nonce verification"
+msgstr ""
+
+#: help.php
+msgid "Improved file permissions (755 for directories, 644 for files)"
+msgstr ""
+
+#: help.php
+msgid "Added automatic cleanup of old avatars"
+msgstr ""
+
+#: help.php
+msgid "Full PHP 8+ compatibility with type declarations"
+msgstr ""
+
+#: help.php
+msgid "Enhanced error handling and user feedback"
+msgstr ""
+
+#: help.php
+msgid "Added XSS protection with proper output escaping"
+msgstr ""
+
+#: help.php
+msgid "Improved code organization and documentation"
+msgstr ""
+
+#: admin/help.php
+msgid "Plugin Name"
+msgstr ""
+
+#: admin/help.php
+msgid "Version"
+msgstr ""
+
+#: admin/help.php
+msgid "Author"
+msgstr ""
+
+#: admin/help.php
+msgid "Website"
+msgstr ""
+
+#: admin/help.php
+msgid "Business theme"
+msgstr ""
+
+#: admin/help.php
+msgid "Job theme"
+msgstr ""
+
+#: admin/help.php
+msgid "Car theme"
+msgstr ""
+
+#: admin/help.php
+msgid "Realestate theme"
+msgstr ""
+
+#: admin/help.php
+msgid "Genaral theme"
+msgstr ""
